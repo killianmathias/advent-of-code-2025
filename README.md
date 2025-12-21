@@ -9,7 +9,7 @@
     <a href="https://github.com/killianmathias">
         <img src="https://img.shields.io/badge/author-killianmathias-red" alt="Author"/>
     </a>
-    <a href="https://github.com/killianmathias/advent-of-code/stargazers">
+    <a href="https://github.com/killianmathias/advent-of-code-2025/stargazers">
         <img src="https://img.shields.io/github/stars/killianmathias/advent-of-code-2025?style=social" alt="Stars"/>
     </a>
 </p>
@@ -25,7 +25,7 @@ For 2025, I’m teaming up with **[Elouan1411](https://github.com/Elouan1411)**:
 
 ---
 
-## Solutions Tracker
+## Schedule
 
 |                    Day                     |                           Language                            | Part 1 | Part 2 |       Solution       |
 | :----------------------------------------: | :-----------------------------------------------------------: | :----: | :----: | :------------------: |
