@@ -39,7 +39,7 @@ For 2025, I’m teaming up with **[Elouan1411](https://github.com/Elouan1411)**:
 | [08](https://adventofcode.com/2025/day/8)  |       ![Bash](https://img.shields.io/badge/Bash-4EAA25)       |   🕘   |   🕘   | [Solution](./day-08) |
 | [09](https://adventofcode.com/2025/day/9)  |       ![Rust](https://img.shields.io/badge/Rust-000000)       |   🕘   |   🕘   | [Solution](./day-09) |
 | [10](https://adventofcode.com/2025/day/10) |        ![PHP](https://img.shields.io/badge/PHP-777BB4)        |   🕘   |   🕘   | [Solution](./day-10) |
-| [11](https://adventofcode.com/2025/day/11) |     ![Kotlin](https://img.shields.io/badge/Kotlin-f23c2e)     |   🕘   |   🕘   | [Solution](./day-11) |
+| [11](https://adventofcode.com/2025/day/11) |      ![Swift](https://img.shields.io/badge/Swift-f23c2e)      |   🕘   |   🕘   | [Solution](./day-11) |
 | [12](https://adventofcode.com/2025/day/12) |          ![C](https://img.shields.io/badge/C-A8B9CC)          |   🕘   |   🕘   | [Solution](./day-12) |
 
 > ✅ = Completed, ❌ = Not completed, 🕘 = Not started yet
