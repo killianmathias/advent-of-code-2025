@@ -30,13 +30,13 @@ For 2025, I’m teaming up with **[Elouan1411](https://github.com/Elouan1411)**:
 |                    Day                     |                           Language                            | Part 1 | Part 2 |       Solution       |
 | :----------------------------------------: | :-----------------------------------------------------------: | :----: | :----: | :------------------: |
 | [01](https://adventofcode.com/2025/day/1)  |      ![Scheme](https://img.shields.io/badge/Scheme-gray)      |   ✅   |   ❌   | [Solution](./day-01) |
-| [02](https://adventofcode.com/2025/day/2)  |        ![Lua](https://img.shields.io/badge/Lua-2C2D72)        |   ✅   |   ✅   | [Solution](./day-12) |
+| [02](https://adventofcode.com/2025/day/2)  |        ![Lua](https://img.shields.io/badge/Lua-2C2D72)        |   ✅   |   ✅   | [Solution](./day-02) |
 | [03](https://adventofcode.com/2025/day/7)  |       ![Ruby](https://img.shields.io/badge/Ruby-CC342D)       |   ✅   |   ✅   | [Solution](./day-03) |
-| [04](https://adventofcode.com/2025/day/4)  |       ![Java](https://img.shields.io/badge/Java-007396)       |   🕘   |   🕘   | [Solution](./day-04) |
+| [04](https://adventofcode.com/2025/day/4)  |       ![Bash](https://img.shields.io/badge/Bash-4EAA25)       |   ✅   |   ✅   | [Solution](./day-04) |
 | [05](https://adventofcode.com/2025/day/5)  | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E) |   🕘   |   🕘   | [Solution](./day-05) |
 | [06](https://adventofcode.com/2025/day/6)  |     ![Python](https://img.shields.io/badge/Python-3776AB)     |   🕘   |   🕘   | [Solution](./day-06) |
 | [07](https://adventofcode.com/2025/day/3)  |        ![C++](https://img.shields.io/badge/C++-00599C)        |   🕘   |   🕘   | [Solution](./day-07) |
-| [08](https://adventofcode.com/2025/day/8)  |       ![Bash](https://img.shields.io/badge/Bash-4EAA25)       |   🕘   |   🕘   | [Solution](./day-08) |
+| [08](https://adventofcode.com/2025/day/8)  |       ![Java](https://img.shields.io/badge/Java-007396)       |   🕘   |   🕘   | [Solution](./day-08) |
 | [09](https://adventofcode.com/2025/day/9)  |       ![Rust](https://img.shields.io/badge/Rust-000000)       |   🕘   |   🕘   | [Solution](./day-09) |
 | [10](https://adventofcode.com/2025/day/10) |        ![PHP](https://img.shields.io/badge/PHP-777BB4)        |   🕘   |   🕘   | [Solution](./day-10) |
 | [11](https://adventofcode.com/2025/day/11) |      ![Swift](https://img.shields.io/badge/Swift-f23c2e)      |   🕘   |   🕘   | [Solution](./day-11) |
