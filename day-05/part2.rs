@@ -23,34 +23,6 @@ fn read_file() -> io::Result<(Vec<String>, Vec<String>)> {
     Ok((lines, ranges))
 }
 
-// fn is_under_range(number: i64, ranges: &Vec<String>) -> bool {
-//     for range in ranges {
-//         let new_range: Vec<&str> = range.split('-').collect();
-//         let first = new_range[0].trim().parse::<i64>().unwrap();
-//         let second = new_range[1].trim().parse::<i64>().unwrap();
-
-//         if number >= first && number <= second {
-//             return true;
-//         }
-//     }
-//     false
-// }
-
-// fn count_fresh(lines: &Vec<String>, ranges: &Vec<String>) -> i64 {
-//     let mut nb_fresh = 0;
-
-//     for line in lines {
-//         if (line != ""){
-//             let number = line.trim().parse::<i64>().unwrap();
-//             if is_under_range(number, ranges) {
-//                 nb_fresh += 1;
-//             }
-//         }
-//     }
-
-//     nb_fresh
-// }
-
 fn create_new_ranges(ranges : &Vec<String>) -> Vec<(i64,i64)>{
     let mut new_ranges = Vec::new();
     for range in ranges{
