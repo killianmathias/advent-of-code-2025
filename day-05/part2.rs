@@ -1,8 +1,8 @@
 use std::fs::File;
 use std::io::{self, BufRead};
 use std::path::Path;
-use std::collections::HashSet;
 
+// Function that read a file and transform it into 2 arrays of String
 fn read_file() -> io::Result<(Vec<String>, Vec<String>)> {
     let path = Path::new("input.txt");
     let file = File::open(path)?;
@@ -23,6 +23,7 @@ fn read_file() -> io::Result<(Vec<String>, Vec<String>)> {
     Ok((lines, ranges))
 }
 
+// Function that transform an array of intervals as String to array of intervals as pair of integer
 fn create_new_ranges(ranges : &Vec<String>) -> Vec<(i64,i64)>{
     let mut new_ranges = Vec::new();
     for range in ranges{
@@ -34,6 +35,8 @@ fn create_new_ranges(ranges : &Vec<String>) -> Vec<(i64,i64)>{
     new_ranges
 }
 
+
+// Function that count the number of fresh values possible with intervals
 fn count_fresh(ranges : &Vec<String>) -> i64{
     let mut new_ranges = create_new_ranges(ranges);
 
@@ -55,6 +58,7 @@ fn count_fresh(ranges : &Vec<String>) -> i64{
     nb_fresh
 }
 
+//Final result
 fn main() -> io::Result<()> {
     let (lines, ranges) = read_file()?;
     let fresh = count_fresh(&ranges);

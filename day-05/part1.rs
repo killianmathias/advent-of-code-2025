@@ -2,6 +2,7 @@ use std::fs::File;
 use std::io::{self, BufRead};
 use std::path::Path;
 
+// Function that read a file and transform it into 2 arrays of String
 fn read_file() -> io::Result<(Vec<String>, Vec<String>)> {
     let path = Path::new("input.txt");
     let file = File::open(path)?;
@@ -22,6 +23,7 @@ fn read_file() -> io::Result<(Vec<String>, Vec<String>)> {
     Ok((lines, ranges))
 }
 
+// Function that look if a number is at least in one interval
 fn is_under_range(number: i64, ranges: &Vec<String>) -> bool {
     for range in ranges {
         let new_range: Vec<&str> = range.split('-').collect();
@@ -35,6 +37,7 @@ fn is_under_range(number: i64, ranges: &Vec<String>) -> bool {
     false
 }
 
+// Function that count the number of values that are in the intervals
 fn count_fresh(lines: &Vec<String>, ranges: &Vec<String>) -> i64 {
     let mut nb_fresh = 0;
 
@@ -50,7 +53,7 @@ fn count_fresh(lines: &Vec<String>, ranges: &Vec<String>) -> i64 {
     nb_fresh
 }
 
-
+// Final result
 fn main() -> io::Result<()> {
     let (lines, ranges) = read_file()?;
 
