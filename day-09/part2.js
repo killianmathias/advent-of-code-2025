@@ -54,7 +54,7 @@ function pointInsidePolygon(x, y, polygon) {
 }
 
 // Function that check if one of the vertical edge of the polygon crosses the rectangle
-function polygonCrossesBox(minX, maxX, minY, maxY, polygon) {
+function polygonCrossesRectangle(minX, maxX, minY, maxY, polygon) {
   for (let i = 0; i < polygon.length; i++) {
     const current = polygon[i];
     let next = null;
@@ -114,7 +114,7 @@ function calculateMax(redTiles) {
       const centerY = (minY + maxY) / 2;
 
       if (pointInsidePolygon(centerX, centerY, redTiles)) {
-        if (!polygonCrossesBox(minX, maxX, minY, maxY, redTiles)) {
+        if (!polygonCrossesRectangle(minX, maxX, minY, maxY, redTiles)) {
           max = value;
         }
       }
