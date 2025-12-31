@@ -40,6 +40,6 @@ For 2025, I’m teaming up with **[Elouan1411](https://github.com/Elouan1411)**:
 | [09](https://adventofcode.com/2025/day/9)  | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E) |   ✅   |   ✅   | [Solution](./day-09) |
 | [10](https://adventofcode.com/2025/day/10) |     ![Python](https://img.shields.io/badge/Python-3776AB)     |   ✅   |   ✅   | [Solution](./day-10) |
 | [11](https://adventofcode.com/2025/day/11) |      ![Swift](https://img.shields.io/badge/Swift-f23c2e)      |   ✅   |   ✅   | [Solution](./day-11) |
-| [12](https://adventofcode.com/2025/day/12) |        ![C++](https://img.shields.io/badge/C++-00599C)        |   🕘   |   🕘   | [Solution](./day-12) |
+| [12](https://adventofcode.com/2025/day/12) |        ![C++](https://img.shields.io/badge/C++-00599C)        |   ❌   |   ❌   | [Solution](./day-12) |
 
 > ✅ = Completed, ❌ = Not completed, 🕘 = Not started yet
